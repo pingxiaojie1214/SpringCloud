@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b5fc0962-d33a-43d0-b55c-1646b013048b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../springcloud/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springcloud/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../springcloud/springcloud-consumer-dept-80/pom.xml" afterPath="$PROJECT_DIR$/../springcloud/springcloud-consumer-dept-80/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -657,7 +656,7 @@
       <workItem from="1578559547974" duration="4000" />
       <workItem from="1578561687391" duration="971000" />
       <workItem from="1578571680269" duration="2552000" />
-      <workItem from="1578580650895" duration="1623000" />
+      <workItem from="1578580650895" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="springcloud学习中！&#10;1.服务提供者。&#10;2.服务消费者。">
       <created>1578581565033</created>
@@ -666,11 +665,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578581565034</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springcloud学习中！&#10;测试！">
+      <created>1578582358605</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578582358605</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17461000" />
+    <option name="totallyTimeSpent" value="17643000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -735,7 +741,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="springcloud学习中！&#10;1.服务提供者。&#10;2.服务消费者。" />
-    <option name="LAST_COMMIT_MESSAGE" value="springcloud学习中！&#10;1.服务提供者。&#10;2.服务消费者。" />
+    <MESSAGE value="springcloud学习中！&#10;测试！" />
+    <option name="LAST_COMMIT_MESSAGE" value="springcloud学习中！&#10;测试！" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
