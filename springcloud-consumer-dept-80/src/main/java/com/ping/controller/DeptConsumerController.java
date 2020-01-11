@@ -19,7 +19,9 @@ public class DeptConsumerController {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    //通过ribbon去实现，这里的地址应该是个变量,通过服务名来访问。
+    //private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://springcloud-provider-dept";
 
     @RequestMapping("/consumer/dept/add")
     public boolean add(Dept dept){

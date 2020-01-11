@@ -13,6 +13,20 @@
     <artifactId>springcloud-consumer-dept-80</artifactId>
 
     <dependencies>
+        <!--Ribbon-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-ribbon -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
+        <!--Uereka-->
+        <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-netflix-eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
         <!--实体类-->
         <dependency>
             <groupId>com.ping</groupId>

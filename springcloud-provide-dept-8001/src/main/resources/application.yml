@@ -11,7 +11,7 @@ mybatis:
 
 spring:
   application:
-    name: springcloud-provider-dept #eureka上的实例左边名称
+    name: springcloud-provider-dept #eureka上的实例左边名称,三个服务名称一致
     #数据库相关
   datasource:
     #url和driverclassname是8.0以上版本的写法,新增最后的时区
@@ -28,7 +28,7 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
   instance:
     instance-id: springcloud-provider-dept8001 #x修改eureka上的默认描述信息！（实例右侧名称）
 
