@@ -19,9 +19,7 @@ Day3:
 	  2.Ribbon+Eureka做负载均衡
 	  3.Feign+Eureka做负载均衡
 	  
-<p align='center'>
-	<img src='https://github.com/pingxiaojie1214/SpringCloud/blob/master/images/ribbon.png' title='images' style='max-width:600px'/>
-</p>         
+        
 ```
 	aaaa
 ```
