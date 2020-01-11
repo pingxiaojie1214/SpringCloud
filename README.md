@@ -18,7 +18,7 @@ Day3:
   	  1.Eureka集群搭建
 	  2.Ribbon+Eureka做负载均衡
 	  3.Feign+Eureka做负载均衡
-	  ![](https://https://github.com/pingxiaojie1214/SpringCloud/images/ribbon.png)  
+	  ![](https://github.com/pingxiaojie1214/SpringCloud/blob/master/images/ribbon.png)  
           
 ```
 	aaaa
