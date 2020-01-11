@@ -14,4 +14,8 @@ Day 1:
           通过这个类写方法。
         2.Actuactor(作用不大)
           配置yml,引入依赖。
+  Day3:
+  	  1.Eureka集群搭建
+			2.Ribbon+Eureka做负载均衡
+			3.Feign+Eureka做负载均衡
           
