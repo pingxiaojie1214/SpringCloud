@@ -16,6 +16,6 @@ Day 1:
           配置yml,引入依赖。
   Day3:
   	  1.Eureka集群搭建
-			2.Ribbon+Eureka做负载均衡
-			3.Feign+Eureka做负载均衡
+	  2.Ribbon+Eureka做负载均衡
+	  3.Feign+Eureka做负载均衡
           
