@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dataSource name="db01@localhost">
-  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.7">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.17">
     <root id="1">
       <DefaultCasing>lower/lower</DefaultCasing>
     </root>
@@ -18,7 +18,6 @@
     </schema>
     <schema id="6" parent="1" name="db01">
       <Current>1</Current>
-      <Visible>1</Visible>
       <Collation>utf8_general_ci</Collation>
     </schema>
     <schema id="7" parent="1" name="demo">
@@ -1181,19 +1180,19 @@
     </table>
     <column id="303" parent="302" name="deptno">
       <Position>1</Position>
-      <DataType>bigint(20)|0</DataType>
+      <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="304" parent="302" name="deptName">
       <Position>2</Position>
-      <DataType>varchar(60)|0</DataType>
+      <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <column id="305" parent="302" name="db_source">
       <Position>3</Position>
-      <DataType>varchar(60)|0</DataType>
+      <DataType>varchar(60)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="306" parent="302" name="PRIMARY">

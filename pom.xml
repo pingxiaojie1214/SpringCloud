@@ -14,7 +14,6 @@
         <module>springcloud-eureka-7001</module>
         <module>springcloud-eureka-7002</module>
         <module>springcloud-eureka-7003</module>
-        <module>springcloud-provide-dep-t8002</module>
         <module>springcloud-provide-dept-8003</module>
         <module>springcloud-provide-dept-8002</module>
         <module>springcloud-consumer-dept-feign</module>
@@ -26,7 +25,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <junit.version>4.1.2</junit.version>
+        <junit.version>3.8.1</junit.version>
         <lombok.version>1.16.18</lombok.version>
         <log4j.version>1.2.17</log4j.version>
     </properties>
