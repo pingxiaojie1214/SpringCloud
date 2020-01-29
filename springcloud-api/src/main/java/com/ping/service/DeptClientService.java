@@ -12,7 +12,7 @@ import java.util.List;
 
 //默认集成了ribbon,由于多了一层，效果没另一个好。
 @Component
-@FeignClient(value="springcloud-provider-dept")
+@FeignClient(value="springcloud-provider-dept",fallbackFactory=DeptClientServiceFallBackFactory.class)
 public interface DeptClientService {
 
     @PostMapping("/dept/add")

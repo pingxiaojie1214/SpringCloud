@@ -15,7 +15,7 @@ spring:
     #数据库相关
   datasource:
     #url和driverclassname是8.0以上版本的写法,新增最后的时区
-    url: jdbc:mysql://127.0.0.1:3306/db02?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.10.130:3306/db02?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: pxj1214
